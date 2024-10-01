@@ -1,0 +1,24 @@
+/* Add this to your CSS file (e.g., index.css) */
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link,
+.nav-dropdown-item {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-content {
+    padding-top: 20px;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
